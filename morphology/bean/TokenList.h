@@ -1,5 +1,6 @@
-#include "Token.h"
+#include "morphology/bean/Token.h"
 #include <vector>
+using namespace std;
 class TokenList
 {
 private:
@@ -9,10 +10,10 @@ public:
     TokenList();
     ~TokenList();
     void add(Token token){
-        list.push_back(token);
+        this->list.push_back(token);
     }
     vector<Token> getList(){
-        return list;
+        return this->list;
     }
     void print(){
         
