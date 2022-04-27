@@ -1,3 +1,0 @@
-#include<vector>
-
-void ChianToFile();
